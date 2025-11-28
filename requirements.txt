@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+uform
+usearch
+torch
+numpy
+Pillow
+python-multipart
