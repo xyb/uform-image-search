@@ -5,6 +5,8 @@ Minimal service to demo [UForm](https://github.com/unum-cloud/UForm)-powered ima
 - Compact and fast to run.
 - Multilingual (90+ languages) zero-shot retrieval.
 
+![Image search UI](docs/search.png)
+
 ## Quickstart
 
 1) Install deps (use any venv you like):
@@ -31,7 +33,6 @@ IMAGE_DIR=/absolute/path/to/images uvicorn server:app --host 0.0.0.0 --port 8000
 3) Open `http://localhost:8000` and start typing; results stream in automatically. Click "Search similar" on any result to run an image-to-image search.
 
 > On first run the UForm model (~2.2GB) is downloaded automatically—expect a short wait.
-
 ### Make targets (optional)
 
 ```
